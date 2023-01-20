@@ -54,6 +54,13 @@
         border-radius: 5px;
 }
 
+.partners a:hover {
+        background-color: white;
+        color: black;
+        transition: all 0.2s;
+        box-shadow: rgba(100, 100, 111, 0.1) 0px 7px 29px 0px;
+}
+
 @media (max-width:400px) {
     .partner-info {
         width: 250px;

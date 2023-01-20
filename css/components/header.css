@@ -25,6 +25,10 @@ nav {
     gap: 30px;
 }
 
+nav > a:hover {
+    color: rgb(245, 245, 245)
+}
+
 .burger-button {
     display:none;
 }
