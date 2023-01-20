@@ -6,6 +6,7 @@
 .hero-content {
     display: flex;
     justify-content: space-between;
+    gap: 120px
 }
 
 .hero-left {
@@ -14,7 +15,6 @@
     justify-content: center;
     gap: 15px;
     color: white;
-    width: 416px;
 }
 
 .hero-left > h1 {
@@ -43,4 +43,32 @@
     text-align: center;
     line-height: 48px;
     border-radius: 5px;
+}
+
+@media (max-width:1300px) {
+    .hero-content img {
+        width: 600px;
+    }
+    .hero-content {
+        gap : 100px;
+    }
+}
+
+@media (max-width:1100px) {
+    .hero-content img {
+        width: 500px;
+    }
+    .hero-content {
+        gap : 80px;
+    }
+}
+
+@media (max-width:996px) {
+    .hero-content img {
+        width: 100%;
+    }
+    .hero-content {
+        flex-direction: column-reverse;
+        gap : 30px;
+    }
 }
