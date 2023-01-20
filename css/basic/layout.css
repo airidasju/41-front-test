@@ -1,0 +1,4 @@
+.row {
+    width: 1200px;
+    margin-left: calc(50% - 600px);
+}

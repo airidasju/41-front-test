@@ -19,6 +19,11 @@ body * {
 }
 
 body {
-    font-family: 'Ubuntu', sans-serif;
-    background-color: #F6F8F5;
+    font-family: 'Work Sans', sans-serif;
+    background-color: var(--white-color);
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }

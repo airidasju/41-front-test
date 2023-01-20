@@ -1,0 +1,26 @@
+header {
+    background-color: var(--green-color);
+}
+
+.nav-bar {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    font-size: 20px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    gap: 15px;
+}
+
+nav {
+    display:flex;
+    gap: 30px;
+}
