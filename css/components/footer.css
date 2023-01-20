@@ -1,0 +1,21 @@
+footer {
+    background-color: var(--green-color);
+    color: white;
+}
+
+.footer-content {
+    height: 125px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socials {
+ display: flex;
+ justify-content: center;
+ gap: 20px;
+}
+
+.footer-content > p {
+    font-size: 20px;
+}
